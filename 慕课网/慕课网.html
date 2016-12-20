@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>慕课网</title>
+		<link rel="stylesheet" type="text/css" href="慕课网.css">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+       <img src="1.jpg" width="100%" height="490" id="bg">
+       <!-- 头部 -->
+       <header>
+       		<div class="logo">
+       			<a href="#"><img src="logo.png"></a>
+       		</div>
+       		<ul class="header_left">
+       			<li><a href="#">实战</a></li>
+       			<li><a href="#">路径</a></li>
+       			<li><a href="#">猿问</a></li>
+       			<li><a href="#">手记</a></li>
+       		</ul>
+       		<ol class="header_right">
+       			<li class="shur"><input type="text" placeholder="请输入想搜索的内容…">
+       			<a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+       			<li class="shouji"><a href="#"><span class="glyphicon glyphicon-phone" ></span></a>
+                                   <div class="xialatu">
+                                         <img src="4.png"> 
+                                   </div>
+                            </li>
+       			<li><a href="#">登录</a></li>
+       			<li><a href="#">注册</a></li>
+       		</ol>
+       </header>
+       <!-- 中间部分 -->
+       <div class="top">
+
+       		<div class="kuang">
+       			<!-- 轮播图 -->
+       			<ul class="fo">
+       				<li class="tu"><a href="#"><img src="3.png"></a></li>
+       				<li><a href="#"><img src="2.png" alt=""></a></li>
+       			</ul>
+       			<ol class="ft">
+       				<li class="tu"></li>
+       				<li></li>
+       			</ol>
+       			<a href="#"><span class="bt left">&lt;</span></a>
+       			<a href="#"><span class="bt right">&gt;</span></a>
+       			<!-- 左边栏 -->
+       			<div class="bianlan">
+       				<ul class="bianlan_left">
+       					<li><a href="#">前端开发<span>&gt;</span></a></li>
+       					<div></div>
+       					<li><a href="#">后端开发<span>&gt;</span></a></li>
+       					<div></div>
+       					<li><a href="#">移动开发<span>&gt;</span></a></li>
+       					<div></div>
+       					<li><a href="#">数据库<span>&gt;</span></a></li>
+       					<div></div>
+       					<li><a href="#">云计算&大数据<span>&gt;</span></a></li>
+       					<div></div>
+       					<li><a href="#">运维&测试<span>&gt;</span></a></li>
+       					<div></div>
+       					<li><a href="#">视觉设计<span>&gt;</span></a></li>
+       				</ul>
+       				<ol class="bianlan_right">
+       					<li>
+       						<img src="http://www.imooc.com/static/img/home/fe.png">
+       						<div class="fenglei">
+       							<h4>分类目录</h4>
+       							<div class="jichu"><span>基础:</span><a href="#">HTML/CSS/JavaScript/jQuery</a></div>
+       								<div><span>进阶:</span><a href="#">Html5/CSS3/Node.js/AngularJS/Bootstrap/React/Sass/Less/</a></div>
+       								<div class="kecheng"><a href="#">Vue.js/WebApp</a></div>
+       								<div><span>其他:</span><a href="#">前端工具</a></div>
+       							<h4>推荐</h4>
+       								<div class="kecheng cheng"><a href="#">课程丨impress让你的内容“舞”起来</a></div>
+       								<div class="kecheng"><a href="#">课程丨Tooltip股东提示框效果</a></div>
+       								<div class="kecheng"><a href="#">课程丨Grunt-beginner前端自动化工具</a></div>
+							</div>
+       					</li>
+       					<li>
+       						<img src="http://www.imooc.com/static/img/home/be.png">
+							<div class="fenglei">
+       							<h4 class="mo">分类目录</h4>
+       							<div class="jichu"><a href="#">PHP/Java/Python/C/C++/Go/C#/</a></div>
+       							<h4 class="tuijian">推荐</h4>
+       								<div class="kecheng chengg"><a href="#">课程丨PHP实现验证码制作</a></div>
+       								<div class="kecheng"><a href="#">课程丨JAVA遇见HTML———JSP篇</a></div>
+       								<div class="kecheng"><a href="#">课程丨PHP微信公众平台开发高级篇——微信JS—SDK</a></div>
+							</div>
+       					</li>
+       					<li>
+       						<img src="http://www.imooc.com/static/img/home/mobile.png">
+       						<div class="fenglei">
+       							<h4 class="mo">分类目录</h4>
+       							<div class="jichu"><a href="#">PHP/Java/Python/C/C++/Go/C#/</a></div>
+       							<h4 class="tuijian">推荐</h4>
+       								<div class="kecheng chengg"><a href="#">课程丨PHP实现验证码制作</a></div>
+       								<div class="kecheng"><a href="#">课程丨JAVA遇见HTML———JSP篇</a></div>
+       								<div class="kecheng"><a href="#">课程丨PHP微信公众平台开发高级篇——微信JS—SDK</a></div>
+							</div>
+       					</li>
+       					<li>
+       						<img src="http://www.imooc.com/static/img/home/data.png">
+       						<div class="fenglei">
+       							<h4 class="mo">分类目录</h4>
+       							<div class="jichu"><a href="#">PHP/Java/Python/C/C++/Go/C#/</a></div>
+       							<h4 class="tuijian">推荐</h4>
+       								<div class="kecheng chengg"><a href="#">课程丨PHP实现验证码制作</a></div>
+       								<div class="kecheng"><a href="#">课程丨JAVA遇见HTML———JSP篇</a></div>
+       								<div class="kecheng"><a href="#">课程丨PHP微信公众平台开发高级篇——微信JS—SDK</a></div>
+							</div>
+       					</li>
+       					<li>
+       						<img src="http://www.imooc.com/static/img/home/yjs.png">
+       						<div class="fenglei">
+       							<h4 class="mo">分类目录</h4>
+       							<div class="jichu"><a href="#">PHP/Java/Python/C/C++/Go/C#/</a></div>
+       							<h4 class="tuijian">推荐</h4>
+       								<div class="kecheng chengg"><a href="#">课程丨PHP实现验证码制作</a></div>
+       								<div class="kecheng"><a href="#">课程丨JAVA遇见HTML———JSP篇</a></div>
+       								<div class="kecheng"><a href="#">课程丨PHP微信公众平台开发高级篇——微信JS—SDK</a></div>
+							</div>
+       					</li>
+       					<li>
+       						<img src="http://www.imooc.com/static/img/home/yw.png">
+       						<div class="fenglei">
+       							<h4 class="mo">分类目录</h4>
+       							<div class="jichu"><a href="#">PHP/Java/Python/C/C++/Go/C#/</a></div>
+       							<h4 class="tuijian">推荐</h4>
+       								<div class="kecheng chengg"><a href="#">课程丨PHP实现验证码制作</a></div>
+       								<div class="kecheng"><a href="#">课程丨JAVA遇见HTML———JSP篇</a></div>
+       								<div class="kecheng"><a href="#">课程丨PHP微信公众平台开发高级篇——微信JS—SDK</a></div>
+							</div>
+       					</li>
+       					<li>
+       						<img src="http://www.imooc.com/static/img/home/photo.png">
+       						<div class="fenglei">
+       							<h4 class="mo">分类目录</h4>
+       							<div class="jichu"><a href="#">PHP/Java/Python/C/C++/Go/C#/</a></div>
+       							<h4 class="tuijian">推荐</h4>
+       								<div class="kecheng chengg"><a href="#">课程丨PHP实现验证码制作</a></div>
+       								<div class="kecheng"><a href="#">课程丨JAVA遇见HTML———JSP篇</a></div>
+       								<div class="kecheng"><a href="#">课程丨PHP微信公众平台开发高级篇——微信JS—SDK</a></div>
+							</div>
+       					</li>
+       				</ol>
+       			</div>
+
+       		</div>
+				<!-- 实战推荐 -->
+       			<div class="main">
+       				<h4>实战推荐</h4>
+       				<a href="#">更多&gt;</a>
+       				<div class="diyi">
+       					<ul>
+       						<li class="diyizhang">
+       							<div class="duo">
+       								<img src="http://szimg.mukewang.com/57b13a3e0001bd5c05400300-360-202.jpg">
+       							</div>
+       							<div class="diyi_intro">
+       								<h5>多领域通用的Python秘技</h5>
+       								<p>只要用Python就一定用得到的多领<br/>域通用开发秘技</p>
+       							</div>
+       							<div class="diyi_bt">
+       								<span class="red">￥168.00</span>
+       								<span class="r">55人在学</span>
+       							</div>
+       						</li>
+       						<li>
+       							<div class="duo">
+       								<img src="http://szimg.mukewang.com/576b84c10001b1c005400300-360-202.jpg">
+       							</div>
+       							<div class="diyi_intro leaf1">
+       								<h5>所向披靡的响应式开发</h5>
+       								<p>忘记设备尺寸，一套代码适配多终<br/>端，响应式开发让用户体验和开发</p>
+       							</div>
+       							<div class="diyi_bt">
+       								<span class="red">￥128.00</span>
+       								<span class="r">977人在学</span>
+       							</div>
+       						</li>
+       						<li>
+                                                        <div class="duo">
+                                                               <img src="http://szimg.mukewang.com/5784beee0001c31c05400300-360-202.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro leaf1">
+                                                               <h5>飞速上手的跨平台App开发</h5>
+                                                               <p>最具潜力的HTML5移动App开发框<br/>架ionic，天然的跨平台属性，通吃</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                               <span class="red">￥88.00</span>
+                                                               <span class="r">552人在学</span>
+                                                        </div>                                    
+                                                 </li>
+       						<li>
+                                                        <div class="duo">
+                                                               <img src="http://szimg.mukewang.com/5763761f0001c35e05400300-360-202.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro leaf1">
+                                                               <h5>打造扛得住的MySQL数据库架构</h5>
+                                                               <p>面面俱到讲解影响MySQL性能的<br/>各个因素，让你将MySQL架构了</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                               <span class="red">￥199.00</span>
+                                                               <span class="r">391人在学</span>
+                                                        </div>                                      
+                                                 </li>
+       						<li>
+                                                        <div class="duo">
+                                                               <img src="http://szimg.mukewang.com/576376520001da3d05400300-360-202.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro leaf1">
+                                                               <h5>7天搞定Node.js微信公众号开发</h5>
+                                                               <p>用Koa框架，ES2015新特性及Mon<br/>goDB数据库，开发微信公众号。</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                               <span class="red">￥199.00</span>
+                                                               <span class="r">738人在学</span>
+                                                        </div>                                      
+                                                 </li>
+       					</ul>
+       				</div>
+                                   <h4 id="meifei">免费好课</h4>
+                                   <a href="#" id="gengduo">更多&gt;</a>
+                                   <div class="dier">
+                                          <ul>
+                                                <li class="diyizhang">
+                                                        <div class="duo">
+                                                               <img src="http://img.mukewang.com/529dc3380001379906000338-228-128.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro">
+                                                               <h5>初 HTML+CSS基础</h5>
+                                                               <p>只要用Python就一定用得到的多领<br/>域通用开发秘技</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                               <span class="r">447146人在学</span>
+                                                               
+                                                        </div>
+                                                 </li>
+                                                 <li>
+                                                        <div class="duo">
+                                                               <img src="http://img.mukewang.com/57035ff200014b8a06000338-228-128.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro leaf1">
+                                                               <h5>Java入门第一季</h5>
+                                                               <p>忘记设备尺寸，一套代码适配多终<br/>端，响应式开发让用户体验和开发</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                        
+                                                               <span class="r">423066人在学</span>
+                                                        </div>
+                                                 </li>
+                                                 <li>
+                                                        <div class="duo">
+                                                               <img src="http://img.mukewang.com/53a28e960001311b06000338-228-128.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro leaf1">
+                                                               <h5>PS入门教程————新手过招</h5>
+                                                               <p>最具潜力的HTML5移动App开发框<br/>架ionic，天然的跨平台属性，通吃</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                               
+                                                               <span class="r">320013人在学</span>
+                                                        </div>                                    
+                                                 </li>
+                                                 <li>
+                                                        <div class="duo">
+                                                               <img src="http://img.mukewang.com/53e1d0470001ad1e06000338-228-128.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro leaf1">
+                                                               <h5>初&nbsp;JavaScript入门篇</h5>
+                                                               <p>面面俱到讲解影响MySQL性能的<br/>各个因素，让你将MySQL架构了</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                              
+                                                               <span class="r">391人在学</span>
+                                                        </div>                                      
+                                                 </li>
+                                                 <li>
+                                                        <div class="duo">
+                                                               <img src="http://img.mukewang.com/574669dc0001993606000338-228-128.jpg">
+                                                        </div>
+                                                        <div class="diyi_intro leaf1">
+                                                               <h5>初&nbsp;C语言入门</h5>
+                                                               <p>用Koa框架，ES2015新特性及Mon<br/>goDB数据库，开发微信公众号。</p>
+                                                        </div>
+                                                        <div class="diyi_bt">
+                                                               
+                                                               <span class="r">738人在学</span>
+                                                        </div>                                      
+                                                 </li>
+                                          </ul>      
+                                   </div>
+       			</div>
+       </div>
+       <!-- 正中间部分 -->
+       <div class="center">
+              <div class="center_zhong">
+                     <div class="first">
+                            <div class="hongsei">
+                                   <img src="web.png">
+                                   <h1>Web</h1>
+                                   <h1>前端工程师</h1>
+                                   <span>职业路径<a href="#">&gt;</a></span>
+                                   <ul>
+                                          <li>Web前端工程师成长第一阶段（基</li>
+                                          <li>响应式布局那些事</li>
+                                          <li>高速开发者必有之路——JS&nbsp;API篇</li>
+                                   </ul>
+                            </div>
+                           <a href="#"> <div class="first_shang">
+                                   <img src="http://img.mukewang.com/57b52d2000018a5404680172.jpg">
+                                   <p>前端经典案例集萃之“图片、信息展示”</p>
+                            </div></a>
+                              <a href="#"> <div class="first_xia">
+                                   <img src="http://img.mukewang.com/57b16fa4000170dd04680172.jpg">
+                                   <p>像搭积木一样的组件式开发</p>
+                            </div></a>
+                            <div class="fixt_tu">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5513a1b50001752806000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>初如何使用高德JS—AP进行</h5>                    
+                                          <p>只要用Python就一定用得到的多领<br/>                           域通用开发秘技</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">11608人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/570aff630001881206000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>高DOM事件探秘</h5>                    
+                                          <p>只要用Python就一定用得到的多领<br/>                           域通用开发秘技</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">61796人在学</span>  
+                                  </div>                                                        
+                            </div>
+                            <div class="first_you">
+                                   <div class="fixt_tu you">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/57466c530001b3b106000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>中按钮特效</h5>                    
+                                          <p>只要用Python就一定用得到的多领<br/>                           域通用开发秘技</p>
+                                   </div>                    
+                                   <div class="hello">                           
+                                          <span class="r">38265人在学</span>  
+                                  </div>  
+                                                                                       
+                            </div>
+                                  <div class="xian"></div> 
+                                  <ul class="sass">
+                                         <li>Sass和Compass必备技能之Com</li>
+                                         <li>网页简单布局之结构与表现原则</li>
+                                         <li>jQuery源码解析（DOM与核心模块）</li>
+                                         <li>AngularJS实战</li>
+                                         <li>React入门</li>
+                                  </ul> 
+                            </div>
+                     </div>
+                     <div class="first sencond">
+                            <div class="hongsei">
+                                   <img src="java.png">
+                                   <h1>Java</h1>
+                                   <h1>工程师</h1>
+                                   <span>职业路径<a href="#">&gt;</a></span>
+                                   <ul>
+                                          <li>模式宗师养成宝典之Java版</li>
+                                          <li>搞定Java加解密</li>
+                                          <li>Hibernate开发宝典</li>
+                                   </ul>
+                            </div>
+                           <a href="#"> <div class="first_shang">
+                                   <img src="http://img.mukewang.com/57b52dd80001a54207120172.jpg">
+                                   <p>新手学java攻略</p>
+                            </div></a>
+                            <div class="fixt_tu">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5783868000019ebc06000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5> 中 Java 分页原理与实践（上）</h5>                    
+                                          <p>手把手带你实现java常见的分页功能</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">33739人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5704a3b20001861306000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5> 模式的秘密---单例模式</h5>                    
+                                          <p>让我们一起揭开单例模式的神秘面<br/>纱 </p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">34741人在学</span>  
+                                  </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt1">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/54af7a6d000164df06000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>中  JAVA实现对称加密</h5>                    
+                                          <p>为你带来软硬件通用的对称加密算 <br/>法。</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">61796人在学</span>  
+                                  </div>                                                        
+                            </div>
+
+                            <div class="first_you">
+                                   <div class="fixt_tu you">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/55657b3b0001e78d06000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>高 Hibernate初态之一对多</h5>                    
+                                          <p> Hibernate中一对多关联映射的配<br/>置</p>
+                                   </div>                    
+                                   <div class="hello">                           
+                                          <span class="r">20939人在学</span>  
+                                  </div>  
+                                                                                       
+                            </div>
+                                  <div class="xian"></div> 
+                                  <ul class="sass">
+                                         <li>Struts2入门</li>
+                                         <li>细说Java多线程之内存可见性</li>
+                                         <li>Spring MVC起步</li>
+                                         <li>JSP常用标签</li>
+
+                                  </ul> 
+                            </div>
+                     </div>
+                     <div class="first third">
+                            <div class="hongsei">
+                                   <img src="PHP.png">
+                                   <h1>PHP</h1>
+                                   <h1>工程师</h1>
+                                   <span>职业路径<a href="#">&gt;</a></span>
+                                   <ul>
+                                          <li>从零开始学习ThinkPHP框架（基</li>
+                                          <li>快速搞定PHP第三方登录</li>
+                                          <li> 带你玩转Yii框架</li>
+                                   </ul>
+                            </div>
+                           <a href="#"> <div class="first_shang">
+                                   <img src="http://img.mukewang.com/57b52dfb0001547104680364.jpg">
+                                   <p>PHP微信公众平台开发攻略</p>
+                                   <div class="p_xian"></div>
+                                   <p id="p_xia">带领大家全面了解微信公众平台的功能</p>
+                            </div></a>
+                            <div class="fixt_tu">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/56e10de50001f0b606000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>PHP微信公众平台开发高级<br/><br/>篇—自定义菜单</h5>                    
+                                          <p>自定义菜单，约吗？ </p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">13111人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/55bec3dd0001f71606000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>与《Yii框架》不得不说的故事</h5>                    
+                                          <p>Yii对4种流行攻击方式的防范和处<br/>理</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">10797人在学</span>  
+                                  </div>                                                        
+                            </div>
+                            <div class="first_you">
+                                   <div class="fixt_tu you">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/570763450001534706000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>中 揭秘PHP模糊查询技术</h5>                    
+                                          <p> PHP模糊查询分析与实现！</p>
+                                   </div>                    
+                                   <div class="hello">                           
+                                          <span class="r">15358人在学</span>  
+                                  </div>  
+                                                                                       
+                            </div>
+                                  <div class="xian"></div> 
+                                  <ul class="sass">
+                                         <li>PHP无限级分类技术</li>
+                                         <li>从零开始打造自己的PHP框架</li>
+                                         <li>PHP7.0新特性</li>
+                                         <li>与《Yii框架》不得不说的故事</li>
+                                         <li>大话PHP设计模式</li>
+                                  </ul> 
+                            </div>
+                     </div>
+                     <div class="first sencond fourth">
+                            <div class="hongsei">
+                                   <img src="Android.png">
+                                   <h1>Android</h1>
+                                   <h1>工程师</h1>
+                                   <span>职业路径<a href="#">&gt;</a></span>
+                                   <ul>
+                                          <li>Android加薪利器--自定义View</li>
+                                          <li>高德开发者必由之路——Android</li>
+                                          <li>Android加薪利器——断点续传</li>
+                                   </ul>
+                            </div>
+                           <a href="#"> <div class="first_shang">
+                                   <img src="http://img.mukewang.com/57ad6cc200017d6707120172.jpg">
+                                   <p>从0开始学习制作QQ侧滑菜单</p>
+                            </div></a>
+                            <div class="fixt_tu">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/570755750001b5c306000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>高 Android高级特效-3D画廊</h5>                    
+                                          <p>打造超酷的高仿时光网电影展示<br/> 页</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">21439人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/574668e30001620506000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>中  Android摄像头基础</h5>                    
+                                          <p>带你走进Android摄像头的秘密花 <br/> 园。</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">28061人在学</span>  
+                                  </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt1">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5707598e0001ec7c06000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>  多种多样的App主界面</h5>                    
+                                          <p>总结的流行的4种实现Tab的方法 </p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">36494人在学</span>  
+                                  </div>                                                        
+                            </div>
+
+                            <div class="first_you">
+                                   <div class="fixt_tu you">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5746675d0001afc506000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>中Android面试解密-</h5>                    
+                                          <p> 大神带你去面试！</p>
+                                   </div>                    
+                                   <div class="hello">                           
+                                          <span class="r">38265人在学</span>  
+                                  </div>  
+                                                                                       
+                            </div>
+                                  <div class="xian"></div> 
+                                  <ul class="sass">
+                                         <li>千变万化的ViewPager切换动画</li>
+                                         <li>Android系统Root原理初探</li>
+                                         <li>Android-打造万能适配器</li>
+                                         <li>Android必学-AsyncTask基础</li>
+                                  </ul> 
+                            </div>
+                     </div>
+                     <div class="first fifth">
+                            <div class="hongsei">
+                                   <img src="iOS.png">
+                                   <h1>iOS</h1>
+                                   <h1>工程师</h1>
+                                   <span>为果粉而生</span>
+                                   <ul>
+                                          <li>Swift加薪利器-iOS动画特辑</li>
+                                          <li>iOS苹果表开发攻略</li>
+                                   </ul>
+                            </div>
+                           <a href="#"> <div class="first_shang">
+                                   <img src="http://img.mukewang.com/57ad6d040001171b04680172.jpg">
+                                   <p>玩儿转Swift 2.0(第二季)</p>
+                            </div></a>
+                              <a href="#"> <div class="first_xia">
+                                   <img src="http://img.mukewang.com/57ad6d47000148fb04680172.jpg">
+                                   <p>iOS基础教程-数据解析</p>
+                            </div></a>
+                            <div class="fixt_tu">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5518ecf20001cb4e06000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>初如何使用高德云图在线制作属</h5>                    
+                                          <p>教你迅速使用云图进行基于LBS的<br/> 开发。</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">40411人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5739236a0001f21506000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>iOS基础教程之-Camera摄像头</h5>                    
+                                          <p>重新认识Camera-摄像头 </p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">6519人在学</span>  
+                                  </div>                                                        
+                            </div>
+                            <div class="first_you">
+                                   <div class="fixt_tu you">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/55594b500001c51406000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5> iOS-动画进阶</h5>                    
+                                          <p> iOS动画特效进阶篇</p>
+                                   </div>                    
+                                   <div class="hello">                           
+                                          <span class="r">15101人在学</span>  
+                                  </div>  
+                                                                                       
+                            </div>
+                                  <div class="xian"></div> 
+                                  <ul class="sass">
+                                         <li>iOS基础教程之界面初体验</li>
+                                         <li>iOS-动画入门</li>
+                                         <li>高德地图组件快速入门</li>
+                                         <li>Objective-C面向对象初体验</li>
+                                         <li>iOS基础教程-SQLite数据库操作</li>
+                                  </ul> 
+                            </div>
+                     </div>
+                     <div class="first sixth">
+                            <div class="fixt_tu">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5697799a0001e99006000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>中  Linux系统管理</h5>                    
+                                          <p>进程管理+工作管理+系统定时任务 </p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">20453人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt_sixth">
+                                 <img src="Linux.png">
+                                   <h1>Linux</h1>
+                                   <h1>运维工程师</h1>
+                                   <span>职业路径<a href="#">&gt;</a></span>                                                        
+                            </div>
+                            <div class="fixt_tu fixt_sixth1">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/5704cf8c00012c9006000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5> 中 Linux网络管理</h5>                    
+                                          <p>为你带来Linux网络环境搭建！</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">53218人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt_sixth2">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/55237dcc0001128c06000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>  shell编程之环境变量配置文件</h5>                    
+                                          <p>为你带来shell环境变量配置<br/> 文件！</p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">15878人在学</span>  
+                                   </div>                                                        
+                            </div>
+                            <div class="fixt_tu fixt_sixth3">
+                                   <div class="duo">
+                                          <img src="http://img.mukewang.com/57035f110001a57906000338-228-128.jpg">
+                                   </div>
+                                   <div class="diyi_intro">              
+                                          <h5>初  Linux达人养成计划 I</h5>                    
+                                          <p>Linux的入门级课程！ </p>
+                                   </div>                    
+                                   <div class="diyi_bt">                           
+                                          <span class="r">173654人在学</span>  
+                                   </div>                                                        
+                            </div>
+                                                             
+                     </div>
+                     <div class="first seventh">
+                            <div class="hongsei">
+                                   <img src="shoujileft.png">
+                                   <h1>手记&猿问</h1>
+                                   <h5>IT知识和答疑，想要的都在这</h5>             
+                                   <ul>
+                                          <li>手记</li>
+                                          <li>猿问</li>
+                                          <li>积分商城</li>
+                                   </ul>
+                            </div>
+                           <a href="#"> <div class="first_shang">
+                                   <img src="http://img.mukewang.com/57b52ed70001231004680172.jpg">
+                                   <p>懒癌者的福音：给你最全的C、C++算法集</p>
+                            </div></a>
+                            <a href="#"> <div class="first_shang yuanwen">
+                                   <h3>热门手记</h3>
+                                   <ul>
+                                          <li>移动开发中原生APP开发的痛点！</li>
+                                          <li>京东单品页前端开发那些事儿 </li>
+                                          <li>为什么找不到工作的是你，技术差的还是你？</li>
+                                          <li>高效学习JavaScript的六个思维技巧！</li>
+                                   </ul>
+                            </div></a>
+                              <a href="#"> <div class="first_xia">
+                                   <img src="http://img.mukewang.com/57b52eac0001d75404680172.jpg">
+                                   <p>数组和指针没学懂，求指教</p>
+                            </div></a>
+                            <a href="#"> <div class="first_xia yuanwen">
+                                   <h3>猿问推荐</h3>
+                                   <ul>
+                                          <li>利用listFiles遍历目录？！</li>
+                                          <li>iOS 和 Android面试经验谈 </li>
+                                          <li>请教图片定位问题？</li>
+                                          <li>c语言主要运用到什么地方?范围广吗?</li>
+                                   </ul>
+                            </div></a>
+              </div>
+       </div>
+       <!-- 底部 -->
+       <div class="dibu">
+              <div class="dibu_tu">
+                     <ul>
+                            <li class="weibo"></li>
+                            <li class="weixin">
+                                   <div class="weixin_tu"></div>
+                            </li>
+                            <li class="qqweibo"></li>
+                            <li class="qqkongjian"></li>
+                     </ul>
+              </div>
+              <div class="ditu_zi">
+                    <ul>
+                           <li><a href="#">关于我们</a></li>
+                           <li><a href="#">企业合作</a></li>
+                           <li><a href="#">人才招聘</a></li>
+                           <li><a href="#">讲师招募</a></li>
+                           <li><a href="#">联系我们</a></li>
+                           <li><a href="#">意见反馈</a></li>
+                           <li><a href="#">友情链接</a></li>
+                    </ul> 
+              </div>
+              <div class="ditu_xian"></div>
+              <div class="ditu_jing">
+                     <p>© 2016 imooc.com  京ICP备13046642号</p>
+              </div>
+       </div>
+       <div class="gua">
+              <ul>
+                     <li></li>
+                     <div></div>
+                     <li class="haha">
+                            <div class="gua_erweima2"></div>
+                     </li>
+                     <div></div>
+                     <li class="heihei">
+                            <div class="gua_erweima"></div>
+                     </li>
+                     <div></div>
+              </ul>
+       </div>
+	<script type="text/javascript" src="慕课网.js"></script>
+	</body>
+</html>
